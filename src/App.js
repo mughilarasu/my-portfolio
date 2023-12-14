@@ -1,8 +1,8 @@
 import React from "react";
-import Box from "@mui/material/Box";
-import Button from "@mui/material/Button";
-import Container from "@mui/material/Container";
-import { Routes, Route, useNavigate } from "react-router-dom";
+// import Box from "@mui/material/Box";
+// import Button from "@mui/material/Button";
+// import Container from "@mui/material/Container";
+// import { Routes, Route, useNavigate } from "react-router-dom";
 import "./styles.css";
 import Home from "./Home";
 import Footer from "./Footer";
@@ -30,10 +30,10 @@ const App = () => {
       behavior: "smooth", // for smoothly scrolling
     });
   };
-  const navigate = useNavigate();
+//  const navigate = useNavigate();
   return (
-    <>
-      <Routes>
+    <div>
+      {/* <Routes>
         <Route path={`/`} element={<Home />} />
         <Route path={`/my-portfolio`} element={<Home />} />
        
@@ -78,7 +78,8 @@ const App = () => {
             </>
           }
         />
-      </Routes>
+      </Routes> */}
+      <Home />
       <Footer />
       {showButton && (
         <Fab
@@ -100,7 +101,7 @@ const App = () => {
           <ExpandLessIcon />
         </Fab>
       )}
-    </>
+    </div>
   );
 };
 

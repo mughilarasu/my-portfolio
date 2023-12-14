@@ -3,7 +3,7 @@ import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import repair from "./Images/image11.jpeg";
+import photo from "./Images/image11.jpg";
 
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
@@ -18,7 +18,7 @@ const AboutMe = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={12} md={6}>
           <img
-            src={repair}
+            src={photo}
             alt="about us"
             style={{
               display: "flex",

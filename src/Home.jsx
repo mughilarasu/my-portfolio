@@ -8,7 +8,7 @@ import Avatar from "@mui/material/Avatar";
 import Achievements from "./Achievements";
 import AboutUs from "./AboutMe";
 //import Projects from "./Projects";
-import Quote from "./ContactMe";
+import ContactMe from "./ContactMe";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Fab from "@mui/material/Fab";
 import Divider from "@mui/material/Divider";
@@ -388,7 +388,7 @@ const Home = () => {
                 }}
               />
             </Box>
-            <Quote />
+            <ContactMe />
           </Container>
         </Box>
       </Box>
