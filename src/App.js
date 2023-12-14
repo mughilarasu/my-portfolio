@@ -35,7 +35,7 @@ const App = () => {
     <>
       <Routes>
         <Route path={`/`} element={<Home />} />
-        <Route path={`/mughilarasu.github.io`} element={<Home />} />
+        <Route path={`/my-portfolio`} element={<Home />} />
        
        
         <Route
