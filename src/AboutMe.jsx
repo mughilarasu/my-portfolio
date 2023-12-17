@@ -31,11 +31,9 @@ const AboutMe = () => {
         <Grid item xs={12} sm={12} md={6}>
           <Box sx={{ textAlign: "left", p: 2 }}>
             <Typography variant="subtitle1" gutterBottom component="div">
-              I am a interactive web developer with the passion for creativity
-              to work in a any environment with a growing organization and to
-              put in best efforts for the technical enhancements of organization
-              and myself. Enthusiastic, motivated,Hardworking and Sincere
-              towards my works.
+              Skilled Frontend Developer with over 5 years of experience in the
+              IT industry, specializing in building mobile and web applications.
+              Enthusiastic, motivated, hardworking, and dedicated to my work.
             </Typography>
 
             <div style={{ flexGrow: 1 }}>

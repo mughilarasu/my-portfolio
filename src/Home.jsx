@@ -17,13 +17,22 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import GetAppIcon from "@mui/icons-material/GetApp";
 import MailIcon from "@mui/icons-material/Mail";
-
+import MughilarasuResume from './Docs/Mughilarasu.pdf';
 import logo from "./Images/logo.png";
 import Skills from "./Skills";
 import Pattern from "./Images/p2.svg";
 import Patternw from "./Images/pattern.svg";
 const Home = () => {
   const firstItemRef = React.useRef(null);
+  const downloadMyResume = () => {
+    const pdfUrl = MughilarasuResume;
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Mughilarasu_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   return (
     <>
       <Box
@@ -249,7 +258,7 @@ const Home = () => {
                 <Box>
                   <Tooltip title="Download My Resume">
                     <Avatar sx={{ background: "#2596be", m: 2 }}>
-                      <IconButton aria-label="GetAppIcon" color="inherit">
+                      <IconButton aria-label="GetAppIcon" color="inherit" onClick={downloadMyResume}>
                         <GetAppIcon />
                       </IconButton>
                     </Avatar>
