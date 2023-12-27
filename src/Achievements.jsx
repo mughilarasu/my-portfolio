@@ -57,7 +57,7 @@ export default function Achievements() {
                 content: (
                   <>
                     <img
-                      src={award}
+                      src={promo}
                       alt="award"
                       style={{ width: "100%", height: "100%" }}
                     />
@@ -66,7 +66,7 @@ export default function Achievements() {
               });
             }}
           >
-            <CardMedia component="img" height="200" image={award} alt="award" />
+            <CardMedia component="img" height="200" image={promo} alt="award" />
             <CardContent sx={{ paddingBottom: "0px !important" }}>
               <Typography
                 gutterBottom
